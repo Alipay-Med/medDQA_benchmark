@@ -86,6 +86,7 @@ We select 5 different multi-modality models and benchmark them on the dataset. T
     <img src="pics/bad4.png" width="90%"> <br>
 </p>
 
+
 # Release
 - [Apr 15] 🔥 sampled MedDQA is released. See `/samples`  in detail
 
