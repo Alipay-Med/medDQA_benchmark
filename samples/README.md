@@ -27,8 +27,7 @@ python qa_generation/image_content_qa_generation.py sampled_image_content_kv_tab
 4. **sampled_context_base.csv**
    - A collection of contexts
    - Provides essential medical background knowledge geared towards supporting clinical reasoning tasks within the domains of urology and general laboratory diagnostics.
-   - Contains four main components for each piece of context:
-     - `report_type`: Denotes whether the context is related to laboratory report or clinical report.
+   - Contains three main components for each piece of context:
      - `title`: Indicates the specific name or label of a disease, examination finding, or health-related topic.
      - `context_type`: It refers to the type of a context. For example, "Disease-Advice" offers advice for controlling or alleviating a health issue, and "Disease-Treatment" provides specifics on the method to addressing a medical disease.
      - `description`: It offers detailed medical knowledge to arrive at the conclusion mentioned in the title, such as the criteria for diagnosing "Mild Anemia".
