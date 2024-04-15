@@ -10,26 +10,18 @@
 
 2. **sampled_image_content_vqa.json**
    - This file includes VQAs based on image content recognition tasks.
-   - `task` include:
-     - `table_qa`: Questions pertaining to tables present in medical reports.
-     - `entity_qa`: Questions focused on entities identified within the images or accompanying data.
-     - `table_nr_qa`: Questions about numerical results in the tables.
-   - `answer_type`: Indicate the type of answers expected, either: `single` or `multi`
+   - `task`: `entity_qa`, `table_qa` or `table_nr_qa`
+   - `answer_type`: `single` or `multi`
 ### Customized Image Content VQA 
-Note you can also generate you own image content VQA datasets by using:
+Note you can also generate your own image content VQA datasets
 ```shell
 python qa_generation/image_content_qa_generation.py sampled_image_content_kv_table_annotation.csv new_image_content_vqa.json
 ```
 
 3. **sampled_clinical_reasoning_vqa.json**
    - This file includes VQAs based on clinical reasoning tasks.
-   - `task` include:
-     - `disease_qa`: Questions related to the identification or characteristics of diseases.
-     - `status_qa`: Questions inquiring about the progression of a disease.
-     - `advice_qa`: Questions seeking recommendations for health-related actions or treatments.
-   - `answer_type`:
-     - `MC` (Multiple Choice): Questions that provide a set of options from which the correct answer(s) should be chosen.
-     - `SA` (Single Answer): Questions that require a single, specific answer.
+   - `task`: `disease_qa`, `status_qa` or `advice_qa`
+   - `answer_type`: `MC` (Multiple Choice) or `SA` (Single Answer)
    - `context`: Each question is supported by a piece of medical knowledge that is essential for deducing the correct answer.
 
 4. **sampled_context_base.csv**
