@@ -45,11 +45,11 @@ We introduce RJUA-MedDQA dataset for the medical report understanding question-a
 * **Subtask 2 Disease Status Diagnosis:**  This requires the model to assess the severity and stage of disease such as tumor staging based on findings in report and provided medical knowledge.
 * **Subtask 3 Advice or Treatment:** This requires the model to generate advice such as further examinations or treatment plans.
 
-## Medical Knowledge Context Base
+## Medical Knowledge Fact Base (Context Base)
 The context base provides essential medical knowledge to support clinical reasoning task within the domain of urology and laboratory. Every piece of context is made up of three components: *type*, *title*, and *description*.
-* Title: It refers to the name or label given to a specific disease, examination finding, or health-related topic, such as "Mild Anemia" or "Renal Cysts Treatment"
-* Type: It refers to the type of a context. For example, "Disease-Advice" offers advice for controlling or alleviating a health issue, and "Disease-Treatment" provides specifics on the method to addressing a medical disease.
-* Description: It offers detailed medical knowledge to arrive at the conclusion mentioned in the title, such as the criteria for diagnosing "Mild Anemia".
+* **Title:** It refers to the name or label given to a specific disease, examination finding, or health-related topic, such as "Mild Anemia" or "Renal Cysts Treatment"
+* **Type:** It refers to the type of a context. For example, "Disease-Advice" offers advice for controlling or alleviating a health issue, and "Disease-Treatment" provides specifics on the method to addressing a medical disease.
+* **Description:** It offers detailed medical knowledge to arrive at the conclusion mentioned in the title, such as the criteria for diagnosing "Mild Anemia".
 
 <p align="center">
     <img src="pics/context_base_example.jpg" width="90%"> <br>
