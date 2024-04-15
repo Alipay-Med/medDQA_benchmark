@@ -2,8 +2,8 @@
 
 1. **sampled_image_content_kv_table_annotation.csv**
    - Contains high-quality annotations extracted from medical image content.
-   - `kv`: Key-Value Pairs: This is a structured dict storing critical information extracted from images, such as patient age, examination date, and pre-examination clinical diagnosis findings.
-   - `table`: List of Quadruplets and each quadruplet includes `item`, `result`, `range`, and `is_abnormal` flag, reflecting the structure of a laboratory report in the order they appear.
+   - `kv`: Key-Value Pairs: This is a structured dictionary storing critical entities extracted from images, such as patient age, examination date, and pre-examination clinical diagnostic findings.
+   - `table`: List of Quadruplets. Each quadruplet includes <`item`, `result`, `range`, and `is_normal`>, reflecting the structure of a laboratory report in the order they appear.
    - `report_type`: Laboratory Reports and a further classification of Clinical Reports (CT, MRI, Ultrasound, etc.)
    - `image_type`: The image type could be pdf, photo or screenshot
    - `image_quality`: The image quality could be high or low
