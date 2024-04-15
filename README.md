@@ -79,7 +79,7 @@ We select 5 different multi-modality models and benchmark them on the dataset. T
 # Data Download 
 You can download the samped dataset from the link at ATEC.
 
-For any questions or suggestions about the dataset, please contact us at: liulei1497@gmail.com, joyce.yxy@antgroup.com, chichenfei@renji.com, huangyiran@renji.com, zhanying@antgroup.com
+For any questions or suggestions about the dataset, please contact us at: [jincongyun.jcy@alipay.com](jincongyun.jcy@alipay.com), [chichenfei@renji.com](chichenfei@renji.com), [huangyiran@renji.com](huangyiran@renji.com), [fancong.fan@antgroup.com](fancong.fan@antgroup.com)
 
 Note: When using the dataset, please ensure compliance with relevant laws, regulations, and data privacy policies.
 
