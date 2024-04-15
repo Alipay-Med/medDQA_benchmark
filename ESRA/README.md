@@ -1,8 +1,8 @@
 # Efficient Structural Restoration Annotation (ESRA)
-We propose an efficient structure-aware labeling method to reconstruct both textual and tabular content in medical reports. It significantly reduces the human labeling errors and improves the efficiency of annotation process. Statistically, this method has elevated the accuracy rate from 70\% to 96.8\%.
+We propose an efficient structure-aware labeling method to reconstruct both textual and tabular content in medical reports. It significantly reduces the human labeling errors and improves the efficiency of annotation process. 
 
 <p align="center">
-  <img src="pics/ESRA.png" width="90%">
+  <img src="../pics/ESRA.png" width="90%">
 </p>
 
 ## How to use?
