@@ -9,14 +9,11 @@ MedDQA is a pioneering and extensive benchmark for medical report understanding 
 * **Clinical Expert Annotation**: The dataset has been meticulously annotated by urology specialists, ensuring the contextual reasoning tasks are grounded in clinical expertise. This ensures that the data is not only accurate but also reflective of the nuances and complexities of real clinical practice.
 * **Medical Context Base for Clinical Reasoning**: The dataset provides a knowledge fact base that includes logical chains for disease diagnosis, staging, and treatment advice. This information is primarily derived from clinical experience and the official Urological Disease Diagnosis and Treatment Guidelines, aiming to bridge the gap between urological disease diagnosis in clinical settings and research communities.
 
-<p align="left">
-    <img src="pics/1.png" width="50%"> <br>
+<p>
+    <img src="pics/1.png" width="50%"> <br> <img src="pics/radar.png" width="50%"> <br>
 </p>
 
-<p align="right">
-    <img src="pics/radar.png" width="50%"> <br>
 </p>
-
 
 # About MedDQA
 The RJUA-MedDQA dataset contains a total of 2000 images, of which 402 are screenshot, 619 are scanned-PDF, and the remaining 979 are photos taken by patients. Reports in screenshot and scanned-PDF format ensure the integrity and clarity of information; on the other hand, reports captured in photographs may exhibit some degree of quality degradation caused by issues such as rotated or skewed angles, blurred text, or incomplete information, which reveals real-world problems. Medical reports can be grouped into two main categories, namely Laboratory Report and Diagnostic(Clinical) Report. 
