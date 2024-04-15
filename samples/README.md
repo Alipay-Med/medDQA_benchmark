@@ -12,6 +12,7 @@
    - This file includes VQAs based on image content recognition tasks.
    - `task`: `entity_qa`, `table_qa` or `table_nr_qa`
    - `answer_type`: `single` or `multi`
+     
    **Customized Image Content VQA**
    Note you can also generate your own image content VQA datasets
    ```shell
