@@ -88,7 +88,7 @@ We select 5 different multi-modality models and benchmark them on the dataset. T
 
 
 # Release
-- [Apr 15] 🔥 sampled MedDQA is released. See `/samples` in detail
+- [Apr 15] 🔥 MedDQA examples is released. See `/samples` in detail
 
 # Contacts 
 For any questions or suggestions about the dataset, please contact us at: [jincongyun.jcy@alipay.com](jincongyun.jcy@alipay.com), [chichenfei@renji.com](chichenfei@renji.com), [huangyiran@renji.com](huangyiran@renji.com), [fancong.fan@antgroup.com](fancong.fan@antgroup.com)
