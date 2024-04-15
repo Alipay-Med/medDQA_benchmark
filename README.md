@@ -4,10 +4,10 @@ Official repository of [[RJUA-MedDQA: A Multimodal Benchmark for Medical Documen
 MedDQA is a pioneering and extensive benchmark for medical report understanding in Chinese, with a special emphasis on urology. It stands out as the largest real-world medical report VQA dataset, offering high-quality OCR results and detailed annotations. The dataset is designed to improve Large Multi-modal Models (LMMs) by enabling them to accurately interpret medical report across a wide range of layouts and to perform robust clinical reasoning based on given medical knowledge.
 
 **The unique features of MedDQA include:**
-* Large Layout Variability: The dataset contains diverse image types such as photographs, scanned PDFs, and screenshots. These images are sourced from various public domains and exhibit complex layouts and varying qualities, simulating real-world conditions. The dataset includes images that may have reduced quality due to factors like rotation, skewing, text blurriness, or incomplete information, reflecting the challenges found in practical scenarios.
-* Real-world Focus: The dataset captures real-world medical scenarios, providing a practical and authentic set of challenges for AI models.It features two main tasks: Image Content Recognition VQA and Clinical Reasoning VQA—that assess a range of model capabilities from data extraction to complex clinical reasoning.
-* Clinical Expert Annotation: The dataset has been meticulously annotated by urology specialists, ensuring the contextual reasoning tasks are grounded in clinical expertise. This ensures that the data is not only accurate but also reflective of the nuances and complexities of real clinical practice.
-* Medical Context Base for Clinical Reasoning: The dataset provides a knowledge fact base that includes logical chains for disease diagnosis, staging, and treatment advice. This information is primarily derived from clinical experience and the official Urological Disease Diagnosis and Treatment Guidelines, aiming to bridge the gap between urological disease diagnosis in clinical settings and research communities.
+* **Large Layout Variability**: The dataset contains diverse image types such as photographs, scanned PDFs, and screenshots. These images are sourced from various public domains and exhibit complex layouts and varying qualities, simulating real-world conditions. The dataset includes images that may have reduced quality due to factors like rotation, skewing, text blurriness, or incomplete information, reflecting the challenges found in practical scenarios.
+* **Real-world Focus**: The dataset captures real-world medical scenarios, providing a practical and authentic set of challenges for AI models.It features two main tasks: Image Content Recognition VQA and Clinical Reasoning VQA—that assess a range of model capabilities from data extraction to complex clinical reasoning.
+* **Clinical Expert Annotation**: The dataset has been meticulously annotated by urology specialists, ensuring the contextual reasoning tasks are grounded in clinical expertise. This ensures that the data is not only accurate but also reflective of the nuances and complexities of real clinical practice.
+* **Medical Context Base for Clinical Reasoning**: The dataset provides a knowledge fact base that includes logical chains for disease diagnosis, staging, and treatment advice. This information is primarily derived from clinical experience and the official Urological Disease Diagnosis and Treatment Guidelines, aiming to bridge the gap between urological disease diagnosis in clinical settings and research communities.
 
 <p align="center">
     <img src="pics/1.png" width="50%"> <br>
@@ -75,11 +75,9 @@ We select 5 different multi-modality models and benchmark them on the dataset. T
 </p>
 
 # Release
-- [Apr 15] 🔥 sampled MedDQA is released. See [Data Download](#Download) section in detail
+- [Apr 15] 🔥 sampled MedDQA is released. See `/samples`  in detail
 
-# Data Download 
-You can download the samped dataset from the link at ATEC.
-
+# Contacts 
 For any questions or suggestions about the dataset, please contact us at: [jincongyun.jcy@alipay.com](jincongyun.jcy@alipay.com), [chichenfei@renji.com](chichenfei@renji.com), [huangyiran@renji.com](huangyiran@renji.com), [fancong.fan@antgroup.com](fancong.fan@antgroup.com)
 
 Note: When using the dataset, please ensure compliance with relevant laws, regulations, and data privacy policies.
