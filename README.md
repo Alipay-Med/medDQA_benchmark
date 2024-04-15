@@ -20,9 +20,15 @@ The RJUA-MedDQA dataset contains a total of 2000 images, of which 402 are screen
     <img src="pics/2.png" width="50%"> <br>
 </p>
 
+Top 25 Diseases in Laboratory Reports (Left) and Diagnostic Reports (Right)
+
+<p align="center">
+    <img src="pics/5.png" width="90%"> <br>
+</p>
+
 ## Data Generation Pipeline
 <p align="center">
-    <img src="pics/pipline.png" width="50%"> <br>
+    <img src="pics/pipline.png" width="90%"> <br>
 </p>
 
 ## Task Overview
@@ -33,7 +39,7 @@ We introduce RJUA-MedDQA dataset for the medical report understanding question-a
 * **Subtask 2 Table Interpretation:** This requires the model to parse tabular data within laboratory reports (e.g. test results and reference intervals).
 * **Subtask 3 Table Numerical Reasoning:** This requires the model to apply quantitative reasoning to identify and interpret abnormal indicators of laboratory reports.
 
-**Task 2: Clinical Reasoning VQA (With Context):** This task poses a significant challenge to models by demanding not only an accurate extraction of the image content but also the professional clinical diagnoses that combine the report's information with a piece of medical knowledge (context) which support the reasoning process. 
+**Task 2: Clinical Reasoning VQA (With Context):** This task poses a significant challenge to models by demanding not only an accurate extraction of the image content but also the professional clinical diagnoses that combine the report's information with a piece of medical knowledge (context) which support the reasoning process. This task includes both multiple-choice questions (MC) and short-answer (SA) formats for assessment.
 * **Subtask 1 Disease Diagnosis:** This requires the model to perform disease diagnosis based on abnormal indicators in laboratory tests (e.g. blood tests), and medical knowledge to support the diagnostic process. 
 * **Subtask 2 Disease Status Diagnosis:**  This requires the model to assess the severity and stage of disease such as tumor staging based on findings in report and provided medical knowledge.
 * **Subtask 3 Advice or Treatment:** This requires the model to generate advice such as further examinations or treatment plans.
