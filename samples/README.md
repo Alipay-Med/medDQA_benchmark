@@ -28,7 +28,7 @@
 
 5. **sampled_context_base.csv**
    - A collection of contexts
-   - Provides essential medical background knowledge geared towards supporting clinical reasoning tasks within the domains of urology and general laboratory diagnostics.
+   - Provides essential medical knowledge to support clinical reasoning tasks within the domains of urology and general laboratory diagnostics.
    - Contains three main components for each piece of context:
      - `title`: Indicates the specific name or label of a disease, examination finding, or health-related topic.
      - `context_type`: It refers to the type of a context. For example, "Disease-Advice" offers advice for controlling or alleviating a health issue, and "Disease-Treatment" provides specifics on the method to addressing a medical disease.
