@@ -12,11 +12,11 @@
    - This file includes VQAs based on image content recognition tasks.
    - `task`: `entity_qa`, `table_qa` or `table_nr_qa`
    - `answer_type`: `single` or `multi`
-### Customized Image Content VQA 
-Note you can also generate your own image content VQA datasets
-```shell
-python qa_generation/image_content_qa_generation.py sampled_image_content_kv_table_annotation.csv new_image_content_vqa.json
-```
+   **Customized Image Content VQA**
+   Note you can also generate your own image content VQA datasets
+   ```shell
+   python qa_generation/image_content_qa_generation.py sampled_image_content_kv_table_annotation.csv new_image_content_vqa.json
+   ```
 
 3. **sampled_clinical_reasoning_vqa.json**
    - This file includes VQAs based on clinical reasoning tasks.
