@@ -51,7 +51,7 @@ The context base provides essential medical knowledge to support clinical reason
 * Description: It offers detailed medical knowledge to arrive at the conclusion mentioned in the title, such as the criteria for diagnosing "Mild Anemia".
 
 <p align="center">
-    <img src="pics/context_base_example.png" width="90%"> <br>
+    <img src="pics/context_base_example.jpg" width="90%"> <br>
 </p>
 
 ## Leaderboard
