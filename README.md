@@ -1,9 +1,5 @@
 # MedDQA benchmark
 Official repository of [[RJUA-MedDQA: A Multimodal Benchmark for Medical Document Question Answering and Clinical Reasoning](https://arxiv.org/abs/2402.14840)] 
-<p align="center">
-    <img src="pics/1.png" width="50%"> <br>
-  * Complex Page Layouts in Various Medical Report Categories: Four Illustrative Examples *
-</p>
 MedDQA is a pioneering and extensive benchmark for medical report understanding in Chinese, with a special emphasis on urology. It stands out as the largest real-world medical report Visual Question Answering (VQA) dataset, offering high-quality OCR results and detailed annotations. The dataset is designed to improve Large Multi-modal Models (LMMs) by enabling them to accurately interpret medical report across a wide range of layouts and to perform robust clinical reasoning based on medical knowledge.
 
 The unique features of MedDQA include:
@@ -11,17 +7,20 @@ The unique features of MedDQA include:
 * Large Layout Variability
 * Clinical Expert Annotation
 
+<p align="center">
+    <img src="pics/1.png" width="50%"> <br>
+</p>
+
 # About MedDQA
 The RJUA-MedDQA dataset contains a total of 2000 images, of which 402 are screenshot, 619 are scanned-PDF, and the remaining 979 are photos taken by patients. Reports in screenshot and scanned-PDF format ensure the integrity and clarity of information; on the other hand, reports captured in photographs may exhibit some degree of quality degradation caused by issues such as rotated or skewed angles, blurred text, or incomplete information, which reveals real-world problems. Medical reports can be grouped into two main categories, namely
 Laboratory Report and Diagnostic(Clinical) Report. 
 
 <p align="center">
     <img src="pics/2.png" width="50%"> <br>
-  * Statistics by report types *
 </p>
 
-## MedDQA Task Overview
-We introduce RJUA-MedDQA dataset for the medical report understanding question-answering problem requiring models to possess the capability to interpret textual and tabular content within images, as well as reasoning capacity given a chunk of context. Consider a medical report $D$, which contains text content and possibly including a table, we propose two main tasks to evaluate different capabilities of LMMs.: (1) Image Content Recognition; (2) Clinical Reasoning. 
+## Task Overview
+We introduce RJUA-MedDQA dataset for the medical report understanding question-answering problem requiring models to possess the capability to interpret textual and tabular content within images, as well as reasoning capacity given a piece of medical knowledge. We propose two main tasks to evaluate different capabilities of LMMs: (1) Image Content Recognition; (2) Clinical Reasoning. 
 
 **Task 1: Image Content Recognition VQA (Without Context):** This task tests the models' ability to accurately extract the content presented in medical reports, which includes both textual and tabular data
 * Subtask 1 Entity Recognition: This involves accurately extracting key information, such as age, examination descriptions and conclusions.
@@ -33,6 +32,11 @@ We introduce RJUA-MedDQA dataset for the medical report understanding question-a
 * Subtask 2 Disease Status Diagnosis:  This requires the model to assess the severity and stage of disease such as tumor staging based on findings in report and provided medical knowledge.
 * Subtask 3 Advice or Treatment: This requires the model to generate advice such as further examinations or treatment plans.
 
+## Medical Knowledge Context Base
+The context base provides essential medical knowledge to support clinical reasoning task within the domain of urology and laboratory. Every context is made up of three components: *type*, *title*, and *description* (see Appendix Table 12).
+* Title: It refers to the name or label given to a specific disease, examination finding, or health-related topic, such as "Mild Anemia" or "Renal Cysts Treatment"
+* Type: It refers to the type of a context. For example, "Disease-Advice" offers advice for controlling or alleviating a health issue, and "Disease-Treatment" provides specifics on the method to addressing a medical disease.
+* Description: It offers detailed medical knowledge to arrive at the conclusion mentioned in the title, such as the criteria for diagnosing "Mild Anemia".
 ## Leaderboard
 
 # Release
