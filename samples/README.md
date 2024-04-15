@@ -1,7 +1,7 @@
 ## Dataset Files
 
 1. **sampled_image_content_kv_table_annotation.csv**
-   - Contains key-value pair annotations extracted from medical image content.
+   - Contains high-quality annotations extracted from medical image content.
    - `kv`: Key-Value Pairs: This is a structured dict storing critical information extracted from images, such as patient age, examination date, and pre-examination clinical diagnosis findings.
    - `table`: List of Quadruplets and each quadruplet includes `item`, `result`, `range`, and `is_abnormal` flag, reflecting the structure of a laboratory report in the order they appear.
    - `report_type`: Laboratory Reports and a further classification of Clinical Reports (CT, MRI, Ultrasound, etc.)
@@ -14,13 +14,12 @@
      - `table_qa`: Questions pertaining to tables present in medical reports.
      - `entity_qa`: Questions focused on entities identified within the images or accompanying data.
      - `table_nr_qa`: Questions about numerical results in the tables.
-   - `answer_type`: Indicate the type of answers expected, either:
-     - `single` 
-     - `multi`
+   - `answer_type`: Indicate the type of answers expected, either: `single` or `multi`
 ### Customized Image Content VQA 
 Note you can also generate you own image content VQA datasets by using:
 ```shell
 python qa_generation/image_content_qa_generation.py sampled_image_content_kv_table_annotation.csv new_image_content_vqa.json
+```
 
 3. **sampled_clinical_reasoning_vqa.json**
    - This file includes VQAs based on clinical reasoning tasks.
@@ -37,9 +36,9 @@ python qa_generation/image_content_qa_generation.py sampled_image_content_kv_tab
    - A collection of contexts
    - Provides essential medical background knowledge geared towards supporting clinical reasoning tasks within the domains of urology and general laboratory diagnostics.
    - Contains four main components for each piece of context:
-     - `report_type`: Denotes whether it is a laboratory or clinical report.
+     - `report_type`: Denotes whether the context is related to laboratory report or clinical report.
      - `title`: Indicates the specific name or label of a disease, examination finding, or health-related topic.
-     - `context_type`: Specifies the category a context falls into (e.g., "Disease-Advice" or "Disease-Treatment").
-     - `description`: Delivers detailed medical information necessary to understand the context provided in the title.
+     - `context_type`: It refers to the type of a context. For example, "Disease-Advice" offers advice for controlling or alleviating a health issue, and "Disease-Treatment" provides specifics on the method to addressing a medical disease.
+     - `description`: It offers detailed medical knowledge to arrive at the conclusion mentioned in the title, such as the criteria for diagnosing "Mild Anemia".
 
 
