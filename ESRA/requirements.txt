@@ -1,0 +1,6 @@
+requests
+opencv-python
+numpy
+logging
+json
+math
