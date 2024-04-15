@@ -1,5 +1,6 @@
 # MedDQA benchmark
 Official repository of [[RJUA-MedDQA: A Multimodal Benchmark for Medical Document Question Answering and Clinical Reasoning](https://arxiv.org/abs/2402.14840)] 
+
 MedDQA is a pioneering and extensive benchmark for medical report understanding in Chinese, with a special emphasis on urology. It stands out as the largest real-world medical report Visual Question Answering (VQA) dataset, offering high-quality OCR results and detailed annotations. The dataset is designed to improve Large Multi-modal Models (LMMs) by enabling them to accurately interpret medical report across a wide range of layouts and to perform robust clinical reasoning based on medical knowledge.
 
 The unique features of MedDQA include:
