@@ -1,5 +1,9 @@
 # MedDQA benchmark
 Official repository of [[RJUA-MedDQA: A Multimodal Benchmark for Medical Document Question Answering and Clinical Reasoning](https://arxiv.org/abs/2402.14840)] 
+<p align="center">
+    <img src="pics/1.png" width="90%"> <br>
+  *Complex Page Layouts in Various Medical Report Categories: Four Illustrative Examples*
+</p>
 
 # About MedDQA
 The RJUA-MedDQA dataset contains a total of 2000 images, of which 402 are screenshot, 619 are scanned-PDF, and the remaining 979 are photos taken by patients. Reports in screenshot and scanned-PDF format ensure the integrity and clarity of information; on the other hand, reports captured in photographs may exhibit some degree of quality degradation caused by issues such as rotated or skewed angles, blurred text, or incomplete information, which reveals real-world problems. Medical reports can be grouped into two main categories, namely
