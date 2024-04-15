@@ -9,8 +9,9 @@ MedDQA is a pioneering and extensive benchmark for medical report understanding 
 * **Clinical Expert Annotation**: The dataset has been meticulously annotated by urology specialists, ensuring the contextual reasoning tasks are grounded in clinical expertise. This ensures that the data is not only accurate but also reflective of the nuances and complexities of real clinical practice.
 * **Medical Context Base for Clinical Reasoning**: The dataset provides a knowledge fact base that includes logical chains for disease diagnosis, staging, and treatment advice. This information is primarily derived from clinical experience and the official Urological Disease Diagnosis and Treatment Guidelines, aiming to bridge the gap between urological disease diagnosis in clinical settings and research communities.
 
-<p>
-    <img src="pics/1.png" width="50%"> <br> <img src="pics/radar.png" width="50%"> <br>
+<p float="left">
+    <img src="pics/1.png" width="50%"> 
+    <img src="pics/radar.png" width="50%">
 </p>
 
 </p>
