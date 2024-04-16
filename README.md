@@ -88,6 +88,7 @@ We select 5 different multi-modality models and benchmark them on the dataset. T
 
 
 # Release
+- [Apr 16] The complete MedDQA dataset will be released soon.
 - [Apr 15] 🔥 MedDQA examples is released. See `/samples` in detail
 
 # Contacts 
